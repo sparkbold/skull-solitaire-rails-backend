@@ -11,3 +11,7 @@ cards.each do |card|
   Card.create(card.to_h)
 end
 
+user1 = User.create(username: 'chelsea', password:'hi')
+user2 = User.create(username: 'trung', password:'hi')
+user3 = User.create(username: 'jonathan', password:'hi')
+

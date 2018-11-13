@@ -18,6 +18,6 @@ def create
   private
  
   def game_params
-    params.require(:game).permit(:game_score, :game_time, :user_id)
+    params.require(:game).permit(:game_score, :game_time, :game_mode, :user_id)
   end
 end
