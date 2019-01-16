@@ -1,2 +1,2 @@
-# solitaire-be
-Solitaire Game back-end
+# solitaire-rails-api-backend with JWT Authentication 
+
